@@ -5,6 +5,7 @@ Este projeto foi desenvolvido por: Arthur Silva, Cleriston Fernandes, Jonathan C
 A data de inicio de desenvolvimento foi 01/09/2022 e terminado na data 15/11/2022
 
 IDE: Eclipse 2022-06 (4.24.0)
+OBS: O arquivo .java está na pasta src.
 
 O tema do projeto é: Desenvolver um jogo RPG Text.
 
