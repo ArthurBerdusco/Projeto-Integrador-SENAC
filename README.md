@@ -1,5 +1,5 @@
 # Projeto-Integrador-SENAC
-Projeto Integrador Senac - 1º Semestre / Arthur, Cleriston, Jonathan, Julio
+Projeto Integrador Senac - 1º Semestre / 1ºB
 Este projeto foi desenvolvido por: Arthur Silva, Cleriston Fernandes, Jonathan Costa e Julio Cesar
 
 A data de inicio de desenvolvimento foi 01/09/2022 e terminado na data 15/11/2022
