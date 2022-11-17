@@ -233,7 +233,7 @@ public class MestreDosMagos {
 			printComDelay("Voltando ao Hall Principal...");
 			hallEscola(personagem);
 		}else{
-			printComDelay("Você deve ir a floreta para poder assistir a aula 3\n");
+			printComDelay("Você deve ir a floresta para poder assistir a aula 3\n");
 			hallEscola(personagem);
 		}
 	}
@@ -318,7 +318,7 @@ public class MestreDosMagos {
 		int vidaGlobins = 60;
 		int escolha;
 		if(personagem.get(7).equals(false)) {
-			printComDelay("Você entrou na floresta sombria.\n" + "A floreta está escura, e você está escutando diversos passos ao seu redor\n" + "Você segue em frente, e caminha alguns metros a procura da caverna da montanha ao sul\n" + "Derrepente...\n" + "Um aglomerado de criaturas, \"Goblins\", não estão nada feliz\n" + "com a sua presença, e estão em posição de ataque.\n  \nVida gangue goblins: " + vidaGlobins + "\nSua vida: " + personagem.get(1) + "\n");
+			printComDelay("Você entrou na floresta sombria.\n" + "A floresta está escura, e você está escutando diversos passos ao seu redor\n" + "Você segue em frente, e caminha alguns metros a procura da caverna da montanha ao sul\n" + "Derrepente...\n" + "Um aglomerado de criaturas, \"Goblins\", não estão nada feliz\n" + "com a sua presença, e estão em posição de ataque.\n  \nVida gangue goblins: " + vidaGlobins + "\nSua vida: " + personagem.get(1) + "\n");
 			do {
 				System.out.println("O que você deseja fazer: \n[ 1 ] Atacar \n[ 2 ] Voltar ao hall da escola\n");
 				escolha = input.nextInt();
