@@ -71,7 +71,12 @@ Este projeto foi desenvolvido como atividade do primeiro semestre do curso de **
 
 ## 🖼️ Imagens do Jogo
 
-![Tela principal - Sistema assistente de montagem de PC](docs/imagens/inicio.png)
+![Inicio do jogo - Mestre dos magos](docs/imagens/inicio.png)
+![Sala de aula - Mestre dos magos](docs/imagens/sala.png)
+![Biblioteca - Mestre dos magos](docs/imagens/biblioteca.png)
+![Batalha - Mestre dos magos](docs/imagens/batalha.png)
+![Enigma - Mestre dos magos](docs/imagens/enigma.png)
+![Fim do jogo - Mestre dos magos](docs/imagens/final.png)
 
 ---
 
