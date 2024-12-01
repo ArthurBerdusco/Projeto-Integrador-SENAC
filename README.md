@@ -71,7 +71,7 @@ Este projeto foi desenvolvido como atividade do primeiro semestre do curso de **
 
 ## 🖼️ Imagens do Jogo
 
-![Tela principal - Sistema assistente de montagem de PC](docs/imagens/inicio do jogo.png)
+![Tela principal - Sistema assistente de montagem de PC](docs/imagens/inicio.png)
 
 ---
 
