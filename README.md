@@ -71,7 +71,7 @@ Este projeto foi desenvolvido como atividade do primeiro semestre do curso de **
 
 ## 🖼️ Imagens do Jogo
 
-Adicione capturas de tela do layout do console, do mapa do jogo ou de batalhas épicas aqui.
+![Tela principal - Sistema assistente de montagem de PC](docs/imagens/inicio do jogo.png)
 
 ---
 
