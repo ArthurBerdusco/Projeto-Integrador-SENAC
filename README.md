@@ -25,7 +25,7 @@ Bem-vindo ao **Mestre dos Magos**, um jogo de RPG baseado em texto onde você as
 1. **Baixe o Jogo**: 
    - Baixe o arquivo JAR do jogo clicando no link abaixo:
 
-     [Baixar o Jogo - Mestre dos Magos](#)
+     [Baixar o Jogo - Mestre dos Magos]([https://github.com/arthurberdusco/raw/main/target](https://github.com/ArthurBerdusco/Projeto-Integrador-SENAC/tree/main/MestreDosMagos/target/mestreDosMagos.jar)
 
 2. **Instruções para Executar o Jogo**:
    - Certifique-se de ter o [Java Runtime Environment (JRE)](https://www.java.com/pt-BR/download/) instalado no seu computador.
