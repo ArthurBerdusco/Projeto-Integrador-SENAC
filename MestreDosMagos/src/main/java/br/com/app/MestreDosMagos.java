@@ -1,14 +1,40 @@
 package br.com.app;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class MestreDosMagos {
 
-    public static void main(String[] args) throws InterruptedException, IOException {
+        public static void main(String[] args) {
+    try {
+        // Verifica se está rodando diretamente pelo CMD
+        if (System.console() == null) {
+            File jarDir = new File(MestreDosMagos.class.getProtectionDomain()
+                    .getCodeSource().getLocation().toURI())
+                    .getParentFile();
+
+            File jarFile = new File(jarDir, "MestreDosMagos-1.0-SNAPSHOT.jar");
+
+            if (!jarFile.exists()) {
+                System.err.println("Erro: Arquivo JAR não encontrado em " + jarFile.getAbsolutePath());
+                System.exit(1);
+            }
+
+            String command = "cmd.exe /c start cmd.exe /k \"java -jar \"" + jarFile.getAbsolutePath() + "\"\"";
+            Runtime.getRuntime().exec(command);
+            System.exit(0);
+        }
+
+        // Continua a execução normal
         menu();
+    } catch (Exception e) {
+        e.printStackTrace();
     }
+}
+
 
     public static int menu() throws InterruptedException, IOException {
         int escolha = 0;
